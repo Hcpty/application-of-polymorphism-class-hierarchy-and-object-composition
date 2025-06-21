@@ -12,6 +12,6 @@ Window window = widgetFactory.createWindow();
 ScrollBar scrollBar = widgetFactory.createScrollBar();
 ```
 
-用戶只需要把第一行代碼修改成`WidgetFactory widgetFactory = new MotifWidgetFactory();`，就能夠將控件系列從Presentation Manager切換到Motif。
+用戶只需要把第一行代碼修改成`WidgetFactory widgetFactory = new MotifWidgetFactory();`，就能夠將部件系列從Presentation Manager切換到Motif。
 
 Factory中返回產品的操作稱爲Factory Method。
